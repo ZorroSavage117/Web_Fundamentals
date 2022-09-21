@@ -1,0 +1,22 @@
+body { 
+    background-color: black;
+    margin: 10px;
+}
+
+h1 {
+    color: darkred;
+    text-align: center;
+}
+
+b {
+    color: whitesmoke;
+    text-align: center;
+}
+
+button { 
+    margin: 20;
+    text-align: center;
+    background-color: darkred;
+    color: whitesmoke;
+    /* align-content: center; */
+}
