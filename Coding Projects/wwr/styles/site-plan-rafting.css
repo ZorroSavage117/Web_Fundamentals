@@ -84,15 +84,19 @@ p {
 }
 .primary {
   background-color: var(--primary-color);
+  color: #FFFFFF;
 }
 .secondary {
   background-color: var(--secondary-color);
+  color: #FFFFFF;
 }
 .accent1 {
   background-color: var(--accent1-color);
+  color: #FFFFFF;
 }
 .accent2{
   background-color: var(--accent2-color);
+  color: #FFFFFF;
 }
 p.colored {
   background-color: var(--paragraph-background-color);
