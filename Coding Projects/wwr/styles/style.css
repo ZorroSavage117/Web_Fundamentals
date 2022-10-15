@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Big+Shoulders+Stencil+Text&family=Nunito&display=swap');
+
+:root {
+    --heading-font: "Allerta Stencil", "Big Shoulders Stencil Text", sans-serif;
+    --paragraph-font: Nunito, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    color: #FFFFFF;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +31,7 @@ nav a {
     text-align: center;
     color: #050505;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -30,6 +55,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #642d3a;
@@ -37,6 +66,9 @@ main section {
 
 body {
     background-color: #642d3a;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -47,6 +79,10 @@ header {
     background-color: #403E47;
     color: #FFFFFF;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -56,6 +92,8 @@ header {
 
 .msg {
     background-color: #AC1122;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -64,23 +102,41 @@ header {
 
 .msg p {
     color: #050505;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: black 5px;
 }
 
 .home-title {
     color: #050505;
-}
-
-h4 {
-    color: #FFFFFF;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .logo, .icon {
     width: 80px;
 }
 
+.icon {
+    padding-top: 10px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
 footer {
     background-color: #403E47;
     color: #050505;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -98,4 +154,8 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
