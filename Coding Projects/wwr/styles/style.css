@@ -210,6 +210,14 @@ header {
     align-self: center;
 }
 
+.river-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 15px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
 footer {
     background-color: #403E47;
     color: #050505;
