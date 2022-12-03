@@ -29,7 +29,7 @@ p {
     font-family: Lato, Helvetica, sans-serif;
 }
 
-main {
+#home {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #6f6c6e;
@@ -82,6 +82,46 @@ main {
 .about > .three {
     grid-row: 4/5;
     grid-column: 1/3;
+}
+
+#rates {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    grid-gap: 20px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.msgrates {
+    grid-column: 1/4;
+    width: 90%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.hourly {
+    grid-column: 1/2;
+}
+
+.hourly ul {
+    list-style-type: none;
+}
+
+.weekly {
+    grid-column: 2/3;
+}
+
+.weekly ul {
+    list-style-type: none;
+}
+
+.otherly {
+    grid-column: 3/4;
+}
+
+.otherly ul {
+    list-style-type: none;
 }
 
 .small {
