@@ -124,8 +124,57 @@ p {
     list-style-type: none;
 }
 
+#carreer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    margin: 25px;
+}
+
+.msgcarreer {
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 50% auto;
+    text-align: center;
+    /* padding: 20px; */
+    border: 5px #7a0000;
+    border-style: dashed;
+}
+
+.msgcarreer section {
+    padding: 15px;
+}
+
+.wire {
+    grid-column: 1/2;
+    padding: 20px;
+    border: 5px #7a0000;
+    border-style: dashed;
+    /* border-color: #7a0000; */
+}
+
+.center {
+    text-align: center;
+}
+
+/* .wire section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+.college {
+    grid-column: 2/3;
+    padding: 20px;
+    border: 5px #7a0000;
+    border-style: dashed;
+}
+
 .small {
     width: 100px;
+}
+
+.medium {
+    width: 100%;
 }
 
 footer {
